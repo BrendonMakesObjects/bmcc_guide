@@ -1,0 +1,199 @@
+/*
+This is the style sheet for midterm project page one mppOneCss.css
+
+*/
+*{
+    font-family:                Courier New;
+    text-align:                 center;
+    color:                      white;
+    padding:                    0.5em 0;
+    margin:                     0 auto;
+    
+}
+body
+{
+    background:                 url(../images/OutsideMainBuilding.jpg);
+    background-color:           white;
+    width:                      80%;
+
+}
+.f1,.f3
+{
+    width:                      31.3%;
+    height:                     45.3%;
+    box-sizing:                 border-box;
+    float:                      left;
+    margin:                     1%;
+    background-color:           rgba(0, 0, 255, 0.3);
+    color:                      #000000;
+    border:                     1px solid none;
+    border-radius:              25px;
+}
+.f2
+{
+    background-color:           rgba(0, 0, 200, 0.3);
+    width:                      31.3%;
+    box-sizing:                 border-box;
+    float:                      left;
+    margin:                     1%;
+    color:                      #000000;
+    border:                     1px solid none;
+    border-radius:              30px 30px 30px 30px; 
+}
+.BK,.AM,.SS
+{
+    text-decoration:            underline;
+}
+.textOne,.textTwo,.textThree
+{
+    display:                    inline;
+    color:                      #000000;
+}
+.top
+{
+    border-radius:              30px 30px 0 0; 
+    border:                     1px solid #665544;
+    background-color:           orange;
+    width:                      99%;
+}
+#main
+{
+    color:                      #ffffff;
+}
+li
+{
+    display:                    inline;
+    margin-right:               15px;
+}
+#nav
+{
+    width:                      99%;
+    color:                      white;
+    padding:                    none;
+    text-align:                 center;
+    overflow:                   hidden;
+}
+p
+{
+    font-family:                10;
+    border:                     10px;
+}
+#nav .p1
+{
+    display:                    none;
+}
+#nav .listed
+{
+    display:                    inline;
+}
+.f1 img
+{
+    display:                    inline;
+    width:                      90%;
+    height:                     90%;
+    border-radius:              30px 30px 30px 30px;
+}
+.f2 img
+{
+    display:                    inline;
+    width:                      90%;
+    height:                     90%;
+    border-radius:              30px 30px 30px 30px;
+}
+.f3 img
+{
+    display:                    inline;
+    width:                      90%;
+    height:                     90%;
+    border-radius:              30px 30px 30px 30px;
+}
+#tradeMark
+{
+    border:                     1px solid;
+    border-radius:              0 0 30px 30px; 
+}
+#tradeMark,.bscp
+{
+    clear:                      both;
+    background-color:           #efefef;
+    color:                      #006400;
+    width:                      98%;
+
+}
+@media only screen and (max-width:768px)
+{
+    *
+        {
+        display:                block;
+        width:                  95%;
+    }
+    title
+        {
+        display:                none;
+    }
+    #main
+        {
+        box-sizing:             border-box;
+        height:                 100%;
+        clear:                  both;
+    }
+    body
+        {
+        background-color:       #000000;
+        width:                  90%;
+    }
+    .top
+        {
+        width:                  97%;
+    }
+    .f1 , .f2 , .f3
+        {
+        width:                  98%;
+        display:                block;
+        box-sizing:             border-box;
+        clear:                  both;
+    }
+    #nav
+        {
+        width:                  97%;
+        height:                 50%;
+    }
+    #nav ul
+       {
+        
+        height:                 0;
+        margin:                 0px;
+        overflow:               hidden;
+        display:                block;
+        transition:             all .3s ease .15s;
+    }
+    #nav .p1
+       {
+        display:                block;       
+        overflow:               hidden;
+        text-align:             center;
+        margin:                 0px;
+        font-size:              2em;
+    }
+    #nav:hover .listed
+       {
+        display:                inline;
+        color:                  #ffffff;
+    }
+    #nav .listed
+        {
+        display:                none;
+    }
+    #nav:hover .p1
+         {
+        display:                none;
+    }
+    #tradeMark,.bscp
+        {
+        clear:                  both;
+        width:                  98%;
+        color:                  #a9a9a9;
+        display:                block;
+        overflow:               hidden;
+    }
+}
